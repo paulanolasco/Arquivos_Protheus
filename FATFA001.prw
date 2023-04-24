@@ -32,7 +32,7 @@ User Function FATFA001()
 		If Aviso(SM0->M0_NOMECOM,"Confirma a alteração do Estado Físico do Bem?",{"Sim","Não"},2,"Atencao") == 1
 			dbSelectArea("SN1")
 			RecLock( "SN1", .F. )
-			SN1->N1_XESTFIS	:= Substr( c_Combo, 1, 1 )
+			SN1->N1_XESTFIS	:= Substr( c_Combo, -1, 1 )
 			MsUnLock()
 		EndIf
 	EndIf

@@ -28,6 +28,6 @@ Static Function MenuDef()
 
 	ADD OPTION a_Ret Title 'Pesquisar'					Action 'PesqBrw'		OPERATION 1 ACCESS 0
 	ADD OPTION a_Ret Title 'Visualizar'					Action 'AxVisual'		OPERATION 2 ACCESS 0
-	ADD OPTION a_Ret Title 'Est. Fis. Bem'				Action 'U_FATFA001()'	OPERATION 4 ACCESS 0
+	ADD OPTION a_Ret Title 'Est. Fis.Bem'				Action 'U_FATFA001()'	OPERATION 4 ACCESS 0
 
 Return( a_Ret )
