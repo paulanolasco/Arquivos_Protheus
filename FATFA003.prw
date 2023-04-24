@@ -19,7 +19,7 @@ User Function FATFA003()
 _cAlias := Alias()
 _cOrd   := IndexOrd()
 _nReg   := Recno()
-_cIni 	:= GetMv("FS_ATFINI")
+_cIni 	:= GetMv("FS_ATFINII")
 
 cQry := " SELECT TOP 1 N1_CBASE AS CODIGO "
 cQry += " FROM " + RetSqlName("SN1")

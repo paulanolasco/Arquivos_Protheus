@@ -16,7 +16,7 @@ PARAMTYPE 0 VAR nOpc AS NUMERIC OPTIONAL DEFAULT 0
 
 	CreateParm()
 	
-	If GetMv("JA_HBATFPE") == "S"
+	If GetMv("JA_HBATFPE") == "SIM"
 		
 		If nOpc == 1
 		
